@@ -8,5 +8,6 @@ from .wifi import WiFi
 from .hotspot import Hotspot
 from .firewall import Firewall
 from .acl import ACL
+from .dns import DNS
 
-__all__ = ["Network", "Application", "Sites", "Devices", "Clients", "Networks", "WiFi", "Hotspot", "Firewall", "ACL"]
+__all__ = ["Network", "Application", "Sites", "Devices", "Clients", "Networks", "WiFi", "Hotspot", "Firewall", "ACL", "DNS"]

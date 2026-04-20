@@ -53,3 +53,6 @@ VOUCHER_ID = config.get("unifi", "voucher_id")
 # acl = ACL(API_KEY, hostname=HOSTNAME, verify=False)
 # print(json.dumps(acl.get_acl_rules(SITE_ID), indent=4))
 # print(json.dumps(acl.get_user_defined_acl_rule_ordering(SITE_ID), indent=4))
+
+dns = DNS(API_KEY, hostname=HOSTNAME, verify=False)
+print(json.dumps(dns.get_dns_policies(SITE_ID), indent=4))
