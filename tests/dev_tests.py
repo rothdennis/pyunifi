@@ -45,3 +45,7 @@ VOUCHER_ID = config.get("unifi", "voucher_id")
 # hotspot = Hotspot(API_KEY, hostname=HOSTNAME, verify=False)
 # print(json.dumps(hotspot.get_vouchers(SITE_ID), indent=4))
 # print(json.dumps(hotspot.get_voucher_details(SITE_ID, VOUCHER_ID), indent=4))
+
+# firewall = Firewall(API_KEY, hostname=HOSTNAME, verify=False)
+# print(json.dumps(firewall.get_firewall_policies(SITE_ID), indent=4))
+# print(json.dumps(firewall.get_firewall_zones(SITE_ID), indent=4))

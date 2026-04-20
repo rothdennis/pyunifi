@@ -6,5 +6,6 @@ from .clients import Clients
 from .networks import Networks
 from .wifi import WiFi
 from .hotspot import Hotspot
+from .firewall import Firewall
 
-__all__ = ["Network", "Application", "Sites", "Devices", "Clients", "Networks", "WiFi", "Hotspot"]
+__all__ = ["Network", "Application", "Sites", "Devices", "Clients", "Networks", "WiFi", "Hotspot", "Firewall"]
