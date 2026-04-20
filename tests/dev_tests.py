@@ -49,3 +49,7 @@ VOUCHER_ID = config.get("unifi", "voucher_id")
 # firewall = Firewall(API_KEY, hostname=HOSTNAME, verify=False)
 # print(json.dumps(firewall.get_firewall_policies(SITE_ID), indent=4))
 # print(json.dumps(firewall.get_firewall_zones(SITE_ID), indent=4))
+
+# acl = ACL(API_KEY, hostname=HOSTNAME, verify=False)
+# print(json.dumps(acl.get_acl_rules(SITE_ID), indent=4))
+# print(json.dumps(acl.get_user_defined_acl_rule_ordering(SITE_ID), indent=4))
