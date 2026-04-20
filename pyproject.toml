@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyunifi"
+version = "0.1.0"
+description = "A Python implementation of the Unifi API"
+authors = [
+    { name = "Dennis", email = "rothdennis92+github@gmail.com" }
+]
+maintainers = [
+    { name = "Dennis", email = "rothdennis92+github@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = { file = "README.md", content-type = "text/markdown" }
+dependencies = [
+    "requests"
+]
+keywords = ["unifi", "api", "python", "networking"]
+
+[project.urls]
+Homepage = "https://github.com/rothdennis/pyunifi"
+Repository = "https://github.com/rothdennis/pyunifi"
+Issues = "https://github.com/rothdennis/pyunifi/issues"
